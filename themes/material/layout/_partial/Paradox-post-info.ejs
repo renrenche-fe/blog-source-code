@@ -2,12 +2,12 @@
 
     <!-- Author Avatar -->
     <div id="author-avatar">
-        <img src="<%- theme.img.avatar %>" width="44px" height="44px" alt="Author Avatar"/>
+        <img src="/img/<%- page.author %>/avatar.png" width="44px" height="44px" alt="Author Avatar"/>
     </div>
     <!-- Author Name & Date -->
     <div>
-        <strong><%= config.author %></strong>
-        <span><%= date(page.date, 'MMM DD, YYYY') %></span>
+        <strong><%= config.authors[page.author] || page.author %></strong>
+        <span style="margin-top:3px"><%= date(page.date, 'MMM DD, YYYY') %></span>
     </div>
 
     <div class="section-spacer"></div>
