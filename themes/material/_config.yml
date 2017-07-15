@@ -165,10 +165,18 @@ sidebar:
         icon: chrome_reader_mode
         divider: false
     pages:
-        #About:
-            #link: "/about"
-            #icon: person
-            #divider: false
+        tags:
+            link: "/tags"
+            icon: bookmark
+            divider: false
+        gallery:
+            link: "/gallery"
+            icon: image
+            divider: false
+        timeline:
+            link: "/timeline"
+            icon: timeline
+            divider: false
     article_num:
         use: false
         divider: false
