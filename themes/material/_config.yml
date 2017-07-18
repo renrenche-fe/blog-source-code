@@ -209,6 +209,10 @@ comment:
     changyan_conf:
     changyan_thread_key_type: path
     gentie_productKey:
+    gitment_owner:
+    gitment_repo:
+    gitment_oauth_client_id:
+    gitment_oauth_client_secret:
 
 # Search Systems
 # Available value:

@@ -1,0 +1,21 @@
+<!-- gitment -->
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<style>
+    #gitment-comment {
+        padding: 0 20px;
+    }
+</style>
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+    const gitment = new Gitment({
+        id: '<%= page.title %>',
+        owner: '<%= theme.comment.gitment_owner %>',
+        repo: '<%= theme.comment.gitment_repo %>',
+        oauth: {
+            client_id: '<%= theme.comment.gitment_oauth_client_id %>',
+            client_secret: '<%= theme.comment.gitment_oauth_client_secret %>',
+        },
+    })
+
+    gitment.render('gitment-comment')
+</script>
