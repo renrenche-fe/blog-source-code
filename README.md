@@ -28,6 +28,11 @@ author: your_username
 #### 设置昵称
 编辑 `/_config.yml`，在 `authors:` 下添加 `your_username: your_nickname` 键值对，文章发表后将使用 `your_nickname` 作为作者名称
 
+### 本地预览
+```
+hexo s
+```
+
 ### 生成页面
 ```
 hexo g
