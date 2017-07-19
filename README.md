@@ -4,6 +4,11 @@
 ## 访问
 [renrenche-fe.github.io](https://renrenche-fe.github.io/)
 
+## 开始
+```
+npm install
+```
+
 ## 写文章
 ```
 hexo new [layout] <title>
